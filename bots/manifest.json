@@ -1,0 +1,112 @@
+{
+  "department": "09-operations",
+  "orientation_required": true,
+  "research_then_install": true,
+  "sub_function_count": 8,
+  "bots": [
+    {
+      "slug": "business-operations",
+      "sub_function": "Business Operations",
+      "titles": [
+        "COO",
+        "VP Operations",
+        "Operations Director",
+        "Operations Manager",
+        "Business Operations Manager",
+        "Process Improvement Manager",
+        "Quality Manager"
+      ]
+    },
+    {
+      "slug": "process-management",
+      "sub_function": "Process Management",
+      "titles": [
+        "COO",
+        "VP Operations",
+        "Operations Director",
+        "Operations Manager",
+        "Business Operations Manager",
+        "Process Improvement Manager",
+        "Quality Manager"
+      ]
+    },
+    {
+      "slug": "service-operations",
+      "sub_function": "Service Operations",
+      "titles": [
+        "COO",
+        "VP Operations",
+        "Operations Director",
+        "Operations Manager",
+        "Business Operations Manager",
+        "Process Improvement Manager",
+        "Quality Manager"
+      ]
+    },
+    {
+      "slug": "quality",
+      "sub_function": "Quality",
+      "titles": [
+        "COO",
+        "VP Operations",
+        "Operations Director",
+        "Operations Manager",
+        "Business Operations Manager",
+        "Process Improvement Manager",
+        "Quality Manager"
+      ]
+    },
+    {
+      "slug": "continuous-improvement",
+      "sub_function": "Continuous Improvement",
+      "titles": [
+        "COO",
+        "VP Operations",
+        "Operations Director",
+        "Operations Manager",
+        "Business Operations Manager",
+        "Process Improvement Manager",
+        "Quality Manager"
+      ]
+    },
+    {
+      "slug": "workforce-management",
+      "sub_function": "Workforce Management",
+      "titles": [
+        "COO",
+        "VP Operations",
+        "Operations Director",
+        "Operations Manager",
+        "Business Operations Manager",
+        "Process Improvement Manager",
+        "Quality Manager"
+      ]
+    },
+    {
+      "slug": "operational-analytics",
+      "sub_function": "Operational Analytics",
+      "titles": [
+        "COO",
+        "VP Operations",
+        "Operations Director",
+        "Operations Manager",
+        "Business Operations Manager",
+        "Process Improvement Manager",
+        "Quality Manager"
+      ]
+    },
+    {
+      "slug": "exception-management",
+      "sub_function": "Exception Management",
+      "titles": [
+        "COO",
+        "VP Operations",
+        "Operations Director",
+        "Operations Manager",
+        "Business Operations Manager",
+        "Process Improvement Manager",
+        "Quality Manager"
+      ]
+    }
+  ]
+}
