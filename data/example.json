@@ -27,7 +27,7 @@
     "actual_outcome": "7-day clean; 0 duplicates",
     "learning_extracted": "Financial batches need idempotency by default",
     "rule_version": "OPS-RULE-005",
-    "last_reviewed": "2026-08-18"
+    "last_reviewed": "2026-08-19"
   },
   "learning_ledger": {
     "case": "Duplicate invoice batch",
