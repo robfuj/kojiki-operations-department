@@ -1,0 +1,45 @@
+{
+  "decision_object": {
+    "decision_id": "OPS-2026-077",
+    "decision_name": "Duplicate invoices sent",
+    "owning_function": "Operations",
+    "decision_owner_role": "Operations Manager",
+    "trigger_condition": "12 duplicate invoices; customer complained",
+    "current_state": "Duplicate batch; finance confused",
+    "required_inputs": [
+      "batch job logs",
+      "overlap window",
+      "affected customers"
+    ],
+    "evidence_threshold": "0 new duplicates over 7 days",
+    "available_options": [
+      "Manual credit notes",
+      "Add idempotency key",
+      "Redesign scheduler"
+    ],
+    "decision_criteria": "Stop bleed + prevent recurrence",
+    "constraints": "No customer double-charge",
+    "risk_level": "high",
+    "delegation_level": "Own",
+    "escalation_conditions": "Other customers affected beyond scan",
+    "expected_outcome": "0 new duplicates; no other victims",
+    "verification_method": "7-day clean run + scan",
+    "actual_outcome": "7-day clean; 0 duplicates",
+    "learning_extracted": "Financial batches need idempotency by default",
+    "rule_version": "OPS-RULE-005",
+    "last_reviewed": "2026-08-18"
+  },
+  "learning_ledger": {
+    "case": "Duplicate invoice batch",
+    "decision": "Contain + automate (idempotency)",
+    "assumption": "Overlap window caused duplicates",
+    "action": "Void dupes; patch job; scan others",
+    "expected_result": "0 new duplicates",
+    "actual_result": "7-day clean run",
+    "variance": "Confirmed root cause",
+    "cause": "No idempotency key on billing batch",
+    "learning": "All financial batch jobs need idempotency keys",
+    "rule_update": "Idempotency + run-lock standard on every billing/scheduler job"
+  },
+  "orientation_required": true
+}

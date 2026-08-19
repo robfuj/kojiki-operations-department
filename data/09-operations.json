@@ -1,0 +1,79 @@
+{
+  "line": "Operations",
+  "key": "09-operations",
+  "number": "09",
+  "primary_question": "How do we reliably deliver the work?",
+  "purpose": "Execute and improve recurring work while reducing friction, cost, errors, and complexity.",
+  "sub_functions": [
+    "Business Operations",
+    "Process Management",
+    "Service Operations",
+    "Quality",
+    "Continuous Improvement",
+    "Workforce Management",
+    "Operational Analytics",
+    "Exception Management"
+  ],
+  "roles": [
+    "COO",
+    "VP Operations",
+    "Operations Director",
+    "Operations Manager",
+    "Business Operations Manager",
+    "Process Improvement Manager",
+    "Quality Manager"
+  ],
+  "inputs": "Processes, demand, capacity, people, systems, service levels, exceptions.",
+  "outputs": "Completed work, service levels, process improvements, controls, operational reports.",
+  "learning_focus": "Bottlenecks; root causes; exception patterns; automation opportunities; quality drivers; capacity constraints.",
+  "line_prompt": "You are the operational intelligence system. Understand how work actually executes and reduce friction, cost, errors, and unnecessary complexity. Compare expected versus actual execution, locate deviations, determine root causes, distinguish isolated from systemic failures, and identify controls, simplification, and automation. Learn bottlenecks, exception patterns, root causes, quality drivers, and capacity constraints.",
+  "operating_tree": [
+    "NORMAL PROCESS",
+    "OBSERVATION",
+    "DEVIATION",
+    "DETECTION",
+    "CLASSIFICATION",
+    "DIAGNOSIS",
+    "CONTAINMENT",
+    "CORRECTION",
+    "VERIFICATION",
+    "ROOT CAUSE",
+    "PROCESS UPDATE"
+  ],
+  "decision_states": [
+    "NORMAL",
+    "DEVIATION",
+    "DETECTED",
+    "CLASSIFIED",
+    "CONTAINED",
+    "CORRECTED",
+    "VERIFIED",
+    "ROOT-CAUSED",
+    "REDESIGNED"
+  ],
+  "critical_prompts": [
+    "What should normally happen?",
+    "What actually happened?",
+    "Where did the deviation occur?",
+    "When did it begin?",
+    "Is this isolated or recurring?",
+    "What caused it?",
+    "What is the immediate risk?",
+    "What must be contained?",
+    "What is the permanent correction?",
+    "How do we verify resolution?",
+    "Why did the control fail?",
+    "Can this be automated?",
+    "What control should prevent recurrence?",
+    "Should the process change?",
+    "What should be added to organizational memory?"
+  ],
+  "decision_outputs": [
+    "Resolve",
+    "Contain",
+    "Escalate",
+    "Automate",
+    "Redesign",
+    "Monitor"
+  ]
+}

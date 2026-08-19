@@ -1,0 +1,37 @@
+```mermaid
+flowchart TD
+    n0["NORMAL PROCESS"]
+    n1["OBSERVATION"]
+    n2["DEVIATION"]
+    n3["DETECTION"]
+    n4["CLASSIFICATION"]
+    n5["DIAGNOSIS"]
+    n6["CONTAINMENT"]
+    n7["CORRECTION"]
+    n8["VERIFICATION"]
+    n9["ROOT CAUSE"]
+    n10["PROCESS UPDATE"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 --> n10
+    n0 -->|learning| n0
+
+stateDiagram-v2
+    [*] --> NORMAL
+    NORMAL --> DEVIATION
+    DEVIATION --> DETECTED
+    DETECTED --> CLASSIFIED
+    CLASSIFIED --> CONTAINED
+    CONTAINED --> CORRECTED
+    CORRECTED --> VERIFIED
+    VERIFIED --> ROOT-CAUSED
+    ROOT-CAUSED --> REDESIGNED
+    REDESIGNED --> [*]
+```
